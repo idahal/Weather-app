@@ -1,12 +1,16 @@
 footer {
   margin-top: 7%;
+  padding-top: 2%;
   padding-right: 2%;
   text-align: right;
   color: #DFDCE3;
   background-color: #236863;
   height: 15vh;
+}
 
-
+a {
+  color: #DFDCE3;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 700px) {

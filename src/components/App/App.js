@@ -88,7 +88,7 @@ class App extends Component {
         fourdate={this.state.fourdate}
           />
         <Footer>
-        <p>https://openweathermap.org/</p>
+        <p><a href="https://openweathermap.org/">https://openweathermap.org/</a></p>
         <p>&copy; {new Date().getFullYear()} Ida Hallner</p>
          </Footer>
       </div>
