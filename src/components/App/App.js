@@ -18,7 +18,7 @@ class App extends Component {
   fetchQuote = () => {
     const Api_Key = 'fbe858c092bd31dfaca263e84ef94abb';
 
-    fetch(`http://api.openweathermap.org/data/2.5/forecast?q=gothenburg,sweden&units=metric&appid=${Api_Key}`)
+    fetch(`https://api.openweathermap.org/data/2.5/forecast?q=gothenburg,sweden&units=metric&appid=${Api_Key}`)
       .then(res => res.json())
       .then(data => {
         console.log(data);
